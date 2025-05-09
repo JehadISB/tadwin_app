@@ -9,7 +9,7 @@ class GetAllPostUsecase{
   GetAllPostUsecase({required this.repository});
 
   Future<Either<Failure,List<Post>>> call() async{
-    return await repository.getALlPosts();
+    return await repository.getAllPosts();
 
   }
 }
