@@ -3,7 +3,7 @@ import 'package:tadwin_app/core/error/exception.dart';
 import 'package:tadwin_app/core/error/failure.dart';
 import 'package:tadwin_app/core/network/network_info.dart';
 import 'package:tadwin_app/features/posts/data/datasources/post_local_data_source.dart';
-import 'package:tadwin_app/features/posts/data/datasources/post_remote_data_source.dart';
+import 'package:tadwin_app/features/posts/data/datasources/remote/post_remote_data_source.dart';
 import 'package:tadwin_app/features/posts/data/models/post_model.dart';
 import 'package:tadwin_app/features/posts/domain/entities/post.dart';
 import 'package:tadwin_app/features/posts/domain/repositories/posts_repository.dart';
